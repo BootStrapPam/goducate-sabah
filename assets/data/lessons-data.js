@@ -1,5 +1,5 @@
 window.GODUCATE_LESSONS = {
-  beginner: [
+  beginner: [//BEGINNER
     {
       title: "Letter A",
       description: "Learn about the letter A!",
@@ -130,24 +130,211 @@ window.GODUCATE_LESSONS = {
       description: "Learn about the letter Z!",
       link: "https://drive.google.com/open?id=1NIUAWcNb37wBASfryOH87-W5iGbU5OPR&usp=drive_copy"
     }
-  ],
-  primary1: [
+  ],//PRIMARY 1
+  primary1: [//Communication Skills
     {
-      title: "Primary 1 English",
-      description: "Build vocabulary with short reading activities.",
-      link: "https://drive.google.com/file/d/EXAMPLE_PRIMARY1_1/view"
+      title: "1 Introducing Self",
+      description: "Let's introduce ourselves today.",
+      link: "https://drive.google.com/open?id=1H3oFQvA5PlJZNmLbv_xZlAeINFr1znQj&usp=drive_copy"
     },
     {
-      title: "Primary 1 Mathematics",
-      description: "Addition and subtraction practice sheets.",
-      link: "https://drive.google.com/file/d/EXAMPLE_PRIMARY1_2/view"
+      title: "2 Greetings",
+      description: "Learning friendly everyday greetings.",
+      link: "https://drive.google.com/open?id=1hf-ywz5QBN8nv8H3PhtwBWPFvCusL0pG&usp=drive_copy"
     },
     {
-      title: "Primary 1 Life Skills",
-      description: "Healthy habits and daily routines.",
-      link: "https://drive.google.com/file/d/EXAMPLE_PRIMARY1_3/view"
+      title: "3 Alphabets: Letter Names and Sounds",
+      description: "Letters and their sounds.",
+      link: "https://drive.google.com/open?id=1Sk36u-d3h7GggEewV1UPvcYPrLwwsQrQ&usp=drive_copy"
+    },
+    {
+      title: "4 Vowels and Consonants",
+      description: "Vowels and consonants made easy.",
+      link: "https://drive.google.com/open?id=1YcTb6MZb_vv-lr-i42T1G8FA2WN5QKtK&usp=drive_copy"
+    },
+    {
+      title: "5 Polite Words",
+      description: "Addition and subtraction practice sheetsUsing polite words daily.",
+      link: "https://drive.google.com/open?id=1bYrJ2IZ7Vks9QtaO2hHM_2f8VU5rvG7j&usp=drive_copy"
+    },
+    {
+      title: "6 Action Words",
+      description: "Action words show what happens.",
+      link: "https://drive.google.com/open?id=1eqND3MyuOr4Xcz5g-f6sYRgJEXjL-VXu&usp=drive_copy"
+    },
+    {
+      title: "7 Antonyms and Synonyms",
+      description: "Opposites and words that match.",
+      link: "https://drive.google.com/open?id=1YcTb6MZb_vv-lr-i42T1G8FA2WN5QKtK&usp=drive_copy"
+    },
+    {
+      title: "8 Likes and Dislikes",
+      description: "Taliking about likes and dislikes.",
+      link: "https://drive.google.com/open?id=1FBauXiqvN2rWwtrNd17oQnoRTbCF7rHZ&usp=drive_copy"
+    },//Scientific and Critical Thinking Skills
+    {
+      title: "1 Animals: Their Babies, Habitat and Food",
+      description: "Amazing animals, their babies, their homes and food.",
+      link: "https://drive.google.com/open?id=1aq_ENrRkUKiKewUXbiRFO5dG6IYTBbWu&usp=drive_copy"
+    },
+    {
+      title: "2 Plants: Parts, Kinds, Uses and Care",
+      description: "Plants, their parts, uses and care",
+      link: "https://drive.google.com/open?id=1xjlKmG5zJfWsAXc_nkxLQ15KpXUI6p0j&usp=drive_copy"
+    },
+    {
+      title: "3 States of Matter",
+      description: "Solid, liquid and gas.",
+      link: "https://drive.google.com/open?id=1H8phkGd9yKxAuSsUPspepOelkWMGDGwN&usp=drive_copy"
+    },
+    {
+      title: "4 Our Wonderful World: The Landforms and the Bodies of Water",
+      description: "Landforms and bodies of water.",
+      link: "https://drive.google.com/open?id=1eNJ3UGuxbMA5eRMHuHbz53CzJGrS-h_1&usp=drive_copy"
+    },
+    {
+      title: "5 Taking Care of the Environment",
+      description: "Learn how to take care of the earth.",
+      link: "https://drive.google.com/open?id=1X_05JvYjAEIZ5jTB-ivprf9dZtCY6knx&usp=drive_copy"
+    },
+    {
+      title: "6 Cause and Effect",
+      description: "Understanding what is cause and effect.",
+      link: "https://drive.google.com/open?id=150A5lATcyc9p4DIffjKbyMB3OSj2RVGP&usp=drive_copy"
+    },
+    {
+      title: "7 Living and Non-Living Things",
+      description: "Understanding what life is all about.",
+      link: "https://drive.google.com/open?id=1vVSIJ2FTWQJElHUKlw0rZMlqGHdN8jmO&usp=drive_copy"
+    },
+    {
+      title: "8 Parts of the Body",
+      description: "Learning about our physical bodies.",
+      link: "https://drive.google.com/open?id=1PvpDKXQ62Ft_a33OP72mPmxv_dnU-aqI&usp=drive_copy"
+    },
+    {
+      title: "9 Parts of the Face and 3 Dimensional Shapes",
+      description: "What is in our face and 3D shapes.",
+      link: "https://drive.google.com/open?id=1eNyn_72FmzrxmUf7jrPZXoRNQIVFXkdg&usp=drive_copy"
+    },
+    {
+      title: "10 The Five Senses",
+      description: "Discovering our five unique senses.",
+      link: "https://drive.google.com/open?id=1DsErdjDoY4BYTxN4Q7MIXqb3yCBbY2lX&usp=drive_copy"
+    },
+    {
+      title: "11 Taking Care of the Body",
+      description: "Practices in taking good care of our bodies.",
+      link: "https://drive.google.com/open?id=1T_UQixj_5grDK5rcY7Hx7uhF4Ic_JMjc&usp=drive_copy"
+    },
+    {
+      title: "12 Man’s Basic Needs",
+      description: "What are the things that we need to live?",
+      link: "https://drive.google.com/open?id=1XugQwPB64RdqZdUQKnSVFxTPUH6uLm0c&usp=drive_copy"
+    },
+
+    {
+      title: "13 Different Types of Weather",
+      description: "Learning about the different weather types.",
+      link: "https://drive.google.com/open?id=1D_vzzRO7Qb9gtITFQmIxh6MqIh02prvd&usp=drive_copy"
+    },
+    {
+      title: "14 Different Weather and The Appropriate Things",
+      description: "The things that we should use in different weather.",
+      link: "https://drive.google.com/open?id=17DBbC6eDxS8n_khzDymwAJI91Ig1dAy8&usp=drive_copy"
+    },//Mathematics and Problem Solving Skills
+    {
+      title: "1 Days of the Weeks and Months of the Year",
+      description: "Days and months all around.",
+      link: "https://drive.google.com/open?id=16rpQ8OMUd4I49aLpTQxDkDu2tdcGoQfW&usp=drive_copy"
+    },
+    {
+      title: "2 Comparisons",
+      description: "Let's compare!",
+      link: "https://drive.google.com/open?id=16mR-taK50MIbccbidlt38_qw37cT2blo&usp=drive_copy"
+    },
+    {
+      title: "3 Lines, Shapes and Colors",
+      description: "Lines, shapes and colors that make our lives fun.",
+      link: "https://drive.google.com/open?id=1hm_UZf5yE4znThnb9MdzgVcM1nZ8DhPd&usp=drive_copy"
+    },
+    {
+      title: "4 Numerals and Number Words",
+      description: "Numbers and their word names.",
+      link: "https://drive.google.com/open?id=1p8PMTMM24cC9pPBatGANaRhPACkkEJ3e&usp=drive_copy"
+    },
+    {
+      title: "5 Counting Numbers",
+      description: "Let's learn how to count numbers.",
+      link: "https://drive.google.com/open?id=1-AibKgFr4N4bB8IZ2BYERCTc4yS7GOuk&usp=drive_copy"
+    },
+    {
+      title: "6 Order of Numbers",
+      description: "Learning about numbers in right order.",
+      link: "https://drive.google.com/open?id=1taqh_oYZASOR-fneCYkCnUkEVd6BMPPh&usp=drive_copy"
+    },
+    {
+      title: "7 Telling Time",
+      description: "What time is it?",
+      link: "https://drive.google.com/open?id=1Dd9wfUxLY6_mfqG19rtnf-kQBcRU7yZ_&usp=drive_copy"
+    },
+    {
+      title: "8 Equal or Not Equal",
+      description: "Are they equal or not equal? Let's see.",
+      link: "https://drive.google.com/open?id=12mGyumPTQFUMRDqDvMFxnEIOJ6I5vELn&usp=drive_copy"
+    },
+    {
+      title: "9 Introduction to Addition and Subtraction",
+      description: "Adding and taking away.",
+      link: "https://drive.google.com/open?id=1q64Qh0_TnUlZeEmU4Lfabkx7geULSFcA&usp=drive_copy"
+    },
+    {
+      title: "10 Addition and Subtraction",
+      description: "Let's add and subtrac!.",
+      link: "https://drive.google.com/open?id=1HS5JqjkJLpLJx-SDbqse0kMxp8mSUnuf&usp=drive_copy"
+    },
+    {
+      title: "11 Problem Solving",
+      description: "Solving fun numbers and problems.",
+      link: "https://drive.google.com/open?id=1cmm0hnAbIg05Ferjc15OWlYKvZKzbGAS&usp=drive_copy"
+    },
+    {//Understanding Self and Society
+      title: "1 My Family",
+      description: "My loving family at home.",
+      link: "https://drive.google.com/open?id=1LGX3gw_y5QyFIbDCkbPdXhtEl7JkQMho&usp=drive_copy"
+    },
+    {
+      title: "2 My Other Family Members",
+      description: "Meet my extended family!",
+      link: "https://drive.google.com/open?id=1Y7yT4MRRUCVc0Ycvbj4Vrq9NzxdWkin0&usp=drive_copy"
+    },
+    {
+      title: "3  Family Roles and Responsibilities",
+      description: "Each of us has a part to play inside our home.",
+      link: "https://drive.google.com/open?id=1q4CZ3FdIadwYpHvUNqLbTP3GsdtGSSK7&usp=drive_copy"
+    },
+    {
+      title: "4 Places in the Community",
+      description: "These are the different places in our community.",
+      link: "https://drive.google.com/open?id=1f3u44pXAD9_y2k-_Yxzfq79B52jEY7zV&usp=drive_copy"
+    },
+    {
+      title: "5 Emotions or Feelings",
+      description: "Understanding our feelings.",
+      link: "https://drive.google.com/open?id=1O6KuypoUen0PbNDI34xiMLuyWzf7M0wT&usp=drive_copy"
+    },
+    {
+      title: "6 Community Helpers",
+      description: "People who are great helpers in our community.",
+      link: "https://drive.google.com/open?id=15QSH25FXymEep9Yv2Nrp32hLWcQsALFj&usp=drive_copy"
+    },
+    {
+      title: "7 Common Accidents and Precautions",
+      description: "Staying safe everyday.",
+      link: "https://drive.google.com/open?id=17R-WTofWB52opLEalPBg5raGmadnuBAk&usp=drive_copy"
     }
-  ],
+    
+  ],//PRIMARY 2
   primary2: [
     {
       title: "Primary 2 English",
