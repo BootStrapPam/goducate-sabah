@@ -2,132 +2,132 @@ window.GODUCATE_LESSONS = {
   beginner: [
     {
       title: "Letter A",
-      description: "Learn about the letter A",
+      description: "Learn about the letter A!",
       link: "https://drive.google.com/open?id=15EMewnQQzBIMcrfA56AAoJDXPjRGMKzr&usp=drive_copy"
     },
     {
       title: "Letter B",
-      description: "Practice counting and number matching.",
+      description: "Learn about the letter B!",
       link: "https://drive.google.com/open?id=1H4V-lmOt-9cln4GGKV3uHBMcjOpQ74ej&usp=drive_copy"
     },
     {
       title: "Letter C",
-      description: "Discover animals and plants around us.",
+      description: "Learn about the letter C!",
       link: "https://drive.google.com/open?id=1ArOngT6EShng1xRHcpmT1FtH0aAvNbu_&usp=drive_copy"
     },
     {
       title: "Letter D",
-      description: "Learn basic letters and simple words.",
+      description: "Learn about the letter D!",
       link: "https://drive.google.com/open?id=15EMewnQQzBIMcrfA56AAoJDXPjRGMKzr&usp=drive_copy"
     },
     {
       title: "Letter E",
-      description: "Practice counting and number matching.",
+      description: "Learn about the letter E!",
       link: "https://drive.google.com/open?id=1y3LceBTHyPO_FIrEP_szE3KN24qM7WOr&usp=drive_copy"
     },
     {
       title: "Letter F",
-      description: "Discover animals and plants around us.",
+      description: "Learn about the letter F!",
       link: "https://drive.google.com/open?id=1gVWmSF7PyrM3-unHcqv_h7KIZhCccvLE&usp=drive_copy"
     },
     {
       title: "Letter G",
-      description: "Learn about the letter A",
+      description: "Learn about the letter G!",
       link: "https://drive.google.com/open?id=1u_zetVG70tW8KhRbej2S9UTktOSWrZ1a&usp=drive_copy"
     },
     {
       title: "Letter H",
-      description: "Practice counting and number matching.",
+      description: "Learn about the letter H!",
       link: "https://drive.google.com/open?id=1BxF1beBeDDINsNv4WvSbgaDnoXKGbh42&usp=drive_copy"
     },
     {
       title: "Letter I",
-      description: "Discover animals and plants around us.",
+      description: "Learn about the letter I!",
       link: "https://drive.google.com/open?id=1juuHn7P1TWDUb-1phK6ciL6uAlWpThC_&usp=drive_copy"
     },
     {
       title: "Letter J",
-      description: "Learn basic letters and simple words.",
+      description: "Learn about the letter J!",
       link: "https://drive.google.com/open?id=1pY9vnzKfHa71McunEdgRm-mxjPisSsR3&usp=drive_copy"
     },
     {
       title: "Letter K",
-      description: "Practice counting and number matching.",
+      description: "Learn about the letter K!",
       link: "https://drive.google.com/open?id=1ZKwx4xmgW2GXxnSpmeoMt-LECQwg_Wn_&usp=drive_copy"
     },
     {
       title: "Letter L",
-      description: "Discover animals and plants around us.",
+      description: "Learn about the letter L!",
       link: "https://drive.google.com/open?id=1d60b1rN2F_DWJrHrMZ-eHQ2RfxL8TGcr&usp=drive_copy"
     },
     {
       title: "Letter M",
-      description: "Learn about the letter A",
+      description: "Learn about the letter M!",
       link: "https://drive.google.com/open?id=1X88b0qDbxoL7AlhgvOyzMujiM-zzmWzA&usp=drive_copy"
     },
     {
       title: "Letter N",
-      description: "Practice counting and number matching.",
+      description: "Learn about the letter N!",
       link: "https://drive.google.com/open?id=10JiTX42K1abj0XSLOH_4AfchatT9CKHC&usp=drive_copy"
     },
     {
       title: "Letter O",
-      description: "Discover animals and plants around us.",
+      description: "Learn about the letter O!",
       link: "https://drive.google.com/open?id=1de4HAPCx_duAO0StRcXOwULdmASRajb3&usp=drive_copy"
     },
     {
       title: "Letter P",
-      description: "Learn basic letters and simple words.",
+      description: "Learn about the letter P!",
       link: "https://drive.google.com/open?id=1HNUBB1uSWwVqJt7gjvKzyU7iM_DTP-kc&usp=drive_copy"
     },
     {
       title: "Letter Q",
-      description: "Practice counting and number matching.",
+      description: "Learn about the letter Q!",
       link: "https://drive.google.com/open?id=1afJfSxBOGjAA-1u1tNg4lHVAmh5Ysi5M&usp=drive_copy"
     },
     {
       title: "Letter R",
-      description: "Discover animals and plants around us.",
+      description: "Learn about the letter R!",
       link: "https://drive.google.com/open?id=1oUC2QybbqJB93Sqx2dRCzlYBLDy2Z7JN&usp=drive_copy"
     },
     {
       title: "Letter S",
-      description: "Learn about the letter A",
+      description: "Learn about the letter S!",
       link: "https://drive.google.com/open?id=1igkJJNIF2TryRqQHtUC2pjH8fBTEGl8j&usp=drive_copy"
     },
     {
       title: "Letter T",
-      description: "Practice counting and number matching.",
+      description: "Learn about the letter T!",
       link: "https://drive.google.com/open?id=1gB_VoQxcjzCQ2CP2XEgm2i5UWhyXcG40&usp=drive_copy"
     },
     {
       title: "Letter U",
-      description: "Discover animals and plants around us.",
+      description: "Learn about the letter U!",
       link: "https://drive.google.com/open?id=1zTnPYnK_3jrIy4t9O9GJUmrJp7aL7HeP&usp=drive_copy"
     },
     {
       title: "Letter V",
-      description: "Learn basic letters and simple words.",
+      description: "Learn about the letter V!",
       link: "https://drive.google.com/open?id=1r6NR9f2HxdB3XvfPiPCCZvMBqbs0yaCS&usp=drive_copy"
     },
     {
       title: "Letter W",
-      description: "Practice counting and number matching.",
+      description: "Learn about the letter W!",
       link: "https://drive.google.com/open?id=1UJnL6D-goHQLj_yO__2T8-JPRIIRhFd4&usp=drive_copy"
     },
     {
       title: "Letter X",
-      description: "Discover animals and plants around us.",
+      description: "Learn about the letter X!",
       link: "https://drive.google.com/open?id=1EmjqJAYrZcj8gnMdAKTZtWCzZpgbYbTm&usp=drive_copy"
     },
     {
       title: "Letter Y",
-      description: "Practice counting and number matching.",
+      description: "Learn about the letter Y!",
       link: "https://drive.google.com/open?id=1fkKsW9Z3QJYJnLObBqEluz9h33y-xjLu&usp=drive_copy"
     },
     {
       title: "Letter Z",
-      description: "Discover animals and plants around us.",
+      description: "Learn about the letter Z!",
       link: "https://drive.google.com/open?id=1NIUAWcNb37wBASfryOH87-W5iGbU5OPR&usp=drive_copy"
     }
   ],
