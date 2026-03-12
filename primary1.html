@@ -17,7 +17,7 @@
         <a href="primary1.html" data-page="primary1">Primary 1</a>
         <a href="primary2.html" data-page="primary2">Primary 2</a>
         <a href="primary3.html" data-page="primary3">Primary 3</a>
-        <a href="advanced.html" data-page="advanced">Advanced Elementary</a>
+        <a href="lifeskills.html" data-page="lifeskills">Life Skills</a>
       </nav>
     </div>
   </header>
@@ -29,13 +29,29 @@
     </section>
 
     <section>
-      <div class="lesson-grid" data-level="primary1"></div>
+      <h2 class="subject-title">Communication Skills</h2>
+      <hr class="subject-divider">
+      <div class="lesson-grid" id="primary1-communication"></div>
+
+      <h2 class="subject-title">Scientific and Critical Thinking Skills</h2>
+      <hr class="subject-divider">
+      <div class="lesson-grid" id="primary1-scientific"></div>
+
+      <h2 class="subject-title">Mathematical and Problem Solving Skills</h2>
+      <hr class="subject-divider">
+      <div class="lesson-grid" id="primary1-mathematical"></div>
+
+      <h2 class="subject-title">Understanding Self and Society</h2>
+      <hr class="subject-divider">
+      <div class="lesson-grid" id="primary1-society"></div>
+
+      <div class="lesson-grid" data-level="primary1" id="primary1-all-lessons" hidden></div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <p>Goducate Sabah (c) 2026 | Learning for Every Child</p>
+      <p>Goducate Sabah (c) 2026 | Helping needy Asians help themselves and others!</p>
     </div>
   </footer>
 
@@ -44,5 +60,67 @@
   </script>
   <script src="assets/data/lessons-data.js"></script>
   <script src="assets/js/main.js"></script>
+  <script>
+    (function () {
+      const source = document.getElementById("primary1-all-lessons");
+      if (!source) return;
+
+      const targets = {
+        communication: document.getElementById("primary1-communication"),
+        scientific: document.getElementById("primary1-scientific"),
+        mathematical: document.getElementById("primary1-mathematical"),
+        society: document.getElementById("primary1-society")
+      };
+
+      const cards = Array.from(source.querySelectorAll(".lesson-card"));
+
+      function titleText(card) {
+        const titleEl = card.querySelector("h3");
+        return titleEl ? titleEl.textContent : "";
+      }
+
+      function isNumbered(title) {
+        return /^\s*\d+\b/.test(String(title || ""));
+      }
+
+      function subjectKeyFromTitleFallback(title) {
+        const t = String(title || "").toLowerCase();
+        if (t.includes("english") || t.includes("alphabet") || t.includes("greet")) return "communication";
+        if (t.includes("science") || t.includes("animal") || t.includes("plant") || t.includes("weather") || t.includes("matter") || t.includes("environment") || t.includes("sense") || t.includes("body")) return "scientific";
+        if (t.includes("mathematics") || t.includes("math") || t.includes("shape") || t.includes("line") || t.includes("month") || t.includes("day")) return "mathematical";
+        if (t.includes("life") || t.includes("social") || t.includes("community") || t.includes("safety") || t.includes("accident")) return "society";
+        return "communication";
+      }
+
+      const numbered = cards.some((card) => isNumbered(titleText(card)));
+      if (numbered) {
+        // Primary 1 lessons are numbered per subject. Split when numbering resets to 1.
+        const subjectOrder = ["communication", "scientific", "mathematical", "society"];
+        let subjectIndex = 0;
+        let lastNumber = null;
+
+        cards.forEach((card) => {
+          const title = titleText(card);
+          const match = String(title || "").match(/^\s*(\d+)\b/);
+          const currentNumber = match ? parseInt(match[1], 10) : null;
+
+          if (lastNumber !== null && currentNumber === 1 && lastNumber !== 1) {
+            subjectIndex = Math.min(subjectIndex + 1, subjectOrder.length - 1);
+          }
+          if (currentNumber !== null) lastNumber = currentNumber;
+
+          const key = subjectOrder[subjectIndex] || "communication";
+          const target = targets[key] || targets.communication;
+          if (target) target.appendChild(card);
+        });
+      } else {
+        cards.forEach((card) => {
+          const key = subjectKeyFromTitleFallback(titleText(card));
+          const target = targets[key] || targets.communication;
+          if (target) target.appendChild(card);
+        });
+      }
+    })();
+  </script>
 </body>
 </html>

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Goducate Sabah | Primary 2</title>
+  <title>Goducate Sabah | Life Skills</title>
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
@@ -24,28 +24,12 @@
 
   <main class="container page-main">
     <section class="lesson-header">
-      <h1>Primary 2</h1>
-      <p>Skill-building lessons for Primary 2 learners.</p>
+      <h1>Life Skills</h1>
+      <p>Learning real life practical skills!</p>
     </section>
 
     <section>
-      <h2 class="subject-title">Communication Skills</h2>
-      <hr class="subject-divider">
-      <div class="lesson-grid" id="primary2-communication"></div>
-
-      <h2 class="subject-title">Scientific and Critical Thinking Skills</h2>
-      <hr class="subject-divider">
-      <div class="lesson-grid" id="primary2-scientific"></div>
-
-      <h2 class="subject-title">Mathematical and Problem Solving Skills</h2>
-      <hr class="subject-divider">
-      <div class="lesson-grid" id="primary2-mathematical"></div>
-
-      <h2 class="subject-title">Understanding Self and Society</h2>
-      <hr class="subject-divider">
-      <div class="lesson-grid" id="primary2-society"></div>
-
-      <div class="lesson-grid" data-level="primary2" id="primary2-all-lessons" hidden></div>
+      <div class="lesson-grid" data-level="lifeskills"></div>
     </section>
   </main>
 
@@ -56,45 +40,51 @@
   </footer>
 
   <script>
-    window.GODUCATE_CURRENT_PAGE = "primary2";
+    window.GODUCATE_CURRENT_PAGE = "lifeskills";
   </script>
   <script src="assets/data/lessons-data.js"></script>
   <script src="assets/js/main.js"></script>
+
   <script>
-    (function () {
-      const source = document.getElementById("primary2-all-lessons");
-      if (!source) return;
+    (function(){
+      const source = document.getElementById("lifeskills-all-lessons");
+      if (source) return;
 
       const targets = {
-        communication: document.getElementById("primary2-communication"),
-        scientific: document.getElementById("primary2-scientific"),
-        mathematical: document.getElementById("primary2-mathematical"),
-        society: document.getElementById("primary2-society")
+        housekeeping: document.getElementById("lifeskills-housekeeping"),
+        cookery: document.getElementById("lifeskills-cookery"),
+        gardening: document.getElementById("lifeskills-gardening"),
+        automotives: document.getElementById("lifeskills-automotives"),
+        computerskills: document.getElementById("lifeskills-computerskills"),
       };
-
       const cards = Array.from(source.querySelectorAll(".lesson-card"));
 
       function titleText(card) {
-        const titleEl = card.querySelector("h3");
+        const titleEl = card.querySelectorAll("h3");
         return titleEl ? titleEl.textContent : "";
       }
-
       function isNumbered(title) {
         return /^\s*\d+\b/.test(String(title || ""));
       }
 
       function subjectKeyFromTitleFallback(title) {
         const t = String(title || "").toLowerCase();
-        if (t.includes("english") || t.includes("alphabet") || t.includes("greet")) return "communication";
-        if (t.includes("science") || t.includes("animal") || t.includes("plant") || t.includes("weather") || t.includes("matter") || t.includes("environment") || t.includes("sense") || t.includes("body")) return "scientific";
-        if (t.includes("mathematics") || t.includes("math") || t.includes("shape") || t.includes("line") || t.includes("month") || t.includes("day")) return "mathematical";
-        if (t.includes("life") || t.includes("social") || t.includes("community") || t.includes("safety") || t.includes("accident")) return "society";
-        return "communication";
+
+        if (t.includes("housekeeping") || t.includes("clean") || t.includes("laundry") || t.includes("hygiene")) return "housekeeping";
+        if (t.includes("cookery") || t.includes("cooking") || t.includes("cook") || t.includes("kitchen") || t.includes("food")) return "cookery";
+        if (t.includes("gardening") || t.includes("garden") || t.includes("plant") || t.includes("soil") || t.includes("compost")) return "gardening";
+        if (t.includes("airconditioning") || t.includes("air conditioning") || t.includes("hvac") || /\bac\b/.test(t)) return "airconditioning";
+        if (t.includes("automotive") || t.includes("automotives") || t.includes("car") || t.includes("motor") || t.includes("engine")) return "automotives";
+        if (t.includes("computer") || t.includes("pc") || t.includes("laptop") || t.includes("typing") || t.includes("internet")) return "computerskills";
+
+        return "housekeeping";
       }
 
       const numbered = cards.some((card) => isNumbered(titleText(card)));
       if (numbered) {
-        const subjectOrder = ["communication", "scientific", "mathematical", "society"];
+        // Optional: if you organize Life Skills lessons as numbered blocks per subject,
+        // this will group them by "1...n" resets in this order.
+        const subjectOrder = ["housekeeping", "cookery", "gardening", "airconditioning", "automotives", "computerskills"];
         let subjectIndex = 0;
         let lastNumber = null;
 
@@ -108,18 +98,19 @@
           }
           if (currentNumber !== null) lastNumber = currentNumber;
 
-          const key = subjectOrder[subjectIndex] || "communication";
-          const target = targets[key] || targets.communication;
+          const key = subjectOrder[subjectIndex] || "housekeeping";
+          const target = targets[key] || targets.housekeeping;
           if (target) target.appendChild(card);
         });
       } else {
         cards.forEach((card) => {
           const key = subjectKeyFromTitleFallback(titleText(card));
-          const target = targets[key] || targets.communication;
+          const target = targets[key] || targets.housekeeping;
           if (target) target.appendChild(card);
         });
       }
     })();
+
   </script>
 </body>
 </html>
