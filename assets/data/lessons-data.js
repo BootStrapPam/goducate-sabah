@@ -18,7 +18,7 @@ window.GODUCATE_LESSONS = {
     {
       title: "Letter D",
       description: "Learn about the letter D!",
-      link: "https://drive.google.com/open?id=15EMewnQQzBIMcrfA56AAoJDXPjRGMKzr&usp=drive_copy"
+      link: "https://drive.google.com/open?id=1h7nqzrsHOcacO7ElkjxuVeuc4vl4m_5S&usp=drive_copy"
     },
     {
       title: "Letter E",
@@ -165,7 +165,7 @@ window.GODUCATE_LESSONS = {
     {
       title: "7 Antonyms and Synonyms",
       description: "Opposites and words that match.",
-      link: "https://drive.google.com/open?id=1YcTb6MZb_vv-lr-i42T1G8FA2WN5QKtK&usp=drive_copy"
+      link: "https://drive.google.com/open?id=1eqND3MyuOr4Xcz5g-f6sYRgJEXjL-VXu&usp=drive_copy"
     },
     {
       title: "8 Likes and Dislikes",
