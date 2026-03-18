@@ -290,7 +290,7 @@ window.GODUCATE_LESSONS = {
     },
     {
       title: "10 Addition and Subtraction",
-      description: "Let's add and subtrac!.",
+      description: "Let's add and subtract!.",
       link: "https://drive.google.com/open?id=1HS5JqjkJLpLJx-SDbqse0kMxp8mSUnuf&usp=drive_copy"
     },
     {
@@ -497,7 +497,7 @@ window.GODUCATE_LESSONS = {
       link: "https://drive.google.com/open?id=16zkH9zS13f9UdfiJs6s10eK1YwBTqYQE&usp=drive_copy"
     },
     {
-      title: "My Expression",
+      title: "3 My Expression",
       description: "Show your feelinges, loud and proud!",
       link: "https://drive.google.com/open?id=12AmHXlRlTwOnXGtcsfR-hlJKbhsaxZ9S&usp=drive_copy"
     },
